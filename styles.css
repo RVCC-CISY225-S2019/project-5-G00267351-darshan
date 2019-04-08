@@ -8,11 +8,10 @@ img {
 }
 
 legend {
+    color: black;
+    font-size: 2.5em;
     display: block;
-    padding-left: 2px;
-    padding-right: 2px;
-    border-color: #000000;
-    border: 7em;    
+    padding: 3px;
 }
 
 button{
@@ -22,6 +21,12 @@ background: #1C6EA4; }
 button:active {
 background: #144E75; }
 
+
 textarea{
-    box-sizing: 75px
+    box-sizing: border-box;
+    border: 1.2px solid;
+}
+
+textarea:focus{
+    background-color: aliceblue;
 }

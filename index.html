@@ -94,25 +94,28 @@
     <div>
     <section id= "contact" class ="form-container">
           <h1> Get in Touch </h1>
-        <fieldset><legend> Please Feel Free to Contact Me Anytime </legend>
+        
         <form method="POST" class="contact" action="https://formspree.io/dpat9388@gmail.com">
-            <p> Email </p>
-            <input type="email" name="Email">
+		<fieldset><legend> Please Feel Free to Contact Me Anytime </legend>
+            <label for="email"> Email </label>
+            <input id="email" type="email" name="Email">
             <p> </p>
-            <fieldset><legend> <label id="yes_no_radio">I Would like a reply </label> </legend>
+            <fieldset><legend> want a reply? </legend>
+		    
             <br>
-            <input type="radio" name="yes_no" checked>Yes
+            <input value="yes" type="radio" name="yes_no" checked>Yes
                 <br>
-                <input type="radio" name="yes_no">No
+                <input value="no" type="radio" name="yes_no">No
             </fieldset>
             <br>
-            <p> Message </p>
-            <textarea name="message" placeholder="Type your concerns here"></textarea>
+            <label for="message"> Message </label>
+            <textarea id="message" name="message"></textarea>
             <br>
             <br>
             <button type="submit"> Send Message </button>    
-            </form>
-              </fieldset>
+            </fieldset>
+			</form>
+              
     </section>
     </div>
     <hr>
